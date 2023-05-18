@@ -133,6 +133,7 @@ label{
 }
 
 .start-screen-buttons .btn {
+    align-self: center;
     width: 120px;
     margin: 10px;
     font-size: large;
@@ -347,6 +348,21 @@ label{
     flex-direction: column;
     display: none;
 }
+
+#easy-leaderboard,
+#intermediate-leaderboard,
+#expert-leaderboard {
+  margin: 20px auto;
+  width: 300px;
+}
+
+#easy-leaderboard div,
+#intermediate-leaderboard div,
+#expert-leaderboard div {
+padding: 5px;
+border-bottom: 1px solid white;
+}
+
 
 .pause-screen.active,
 .result-screen.active {
